@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.top {
+  background-color: rgb(40, 97, 190);
+  min-height: 30px;
+}
+
+.header {
+  background-color: rgb(75, 138, 241);
+  min-height: 50px;
+}
+
+.content {
+  background-color: rgb(217, 220, 226);
+  min-height: 150px;
+}
+
+.feature-1 {
+  background-color: rgb(226, 140, 118);
+  min-height: 100px;
+}
+
+.feature-2 {
+  background-color: rgb(236, 227, 106);
+  min-height: 100px;
+}
+
+.feature-3 {
+  background-color: rgb(202, 134, 168);
+  min-height: 100px;
+}

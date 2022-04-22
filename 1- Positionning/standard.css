@@ -1,0 +1,15 @@
+.parent {
+  background-color: aquamarine;
+}
+
+.child-one {
+  background-color: coral;
+}
+
+.child-two {
+  background-color: darkcyan;
+}
+
+.child-three {
+  background-color: deeppink;
+}
