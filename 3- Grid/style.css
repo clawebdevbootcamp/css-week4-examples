@@ -1,2 +1,17 @@
 .grid-container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+  grid-auto-rows: 200px;
+  gap: 10px 20px;
+  align-items: end;
+  justify-items: center;
+}
+
+.grid-item-1 {
+  justify-self: start;
+}
+
+.grid-item-2 {
+  align-self: start;
 }

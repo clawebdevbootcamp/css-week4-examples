@@ -1,1 +1,28 @@
+@media screen and (min-width: 371px) and (max-width: 1000px) {
+  body {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
+  .top,
+  .header,
+  .content,
+  .feature-3 {
+    grid-column: span 2;
+  }
+}
+
+@media screen and (min-width: 1001px) {
+  body {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .top,
+  .header,
+  .content {
+    grid-column: span 3;
+  }
+
+  .content {
+    grid-row: 4/5;
+  }
+}

@@ -1,7 +1,10 @@
 .parent {
+  height: 200vh;
 }
 
 .child-one {
+  position: sticky;
+  top: 0px;
 }
 
 .child-two {
